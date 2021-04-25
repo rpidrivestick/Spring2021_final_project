@@ -1,5 +1,0 @@
-# Field descriptions
-
-## Data 1 - Taxable Sales And Purchases Quarterly Data: Beginning Sales Tax Year 2013-2014
-
-<div class="getty embed image" style="background-color:#fff;display:inline-block;font-family:Roboto,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:509px;"><div style="padding:0;margin:0;text-align:left;"><a href="http://www.gettyimages.com/detail/817635976" target="_blank" style="color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;">Embed from Getty Images</a></div><div style="overflow:hidden;position:relative;height:0;padding:66.60118% 0 0 0;width:100%;"><iframe src="//embed.gettyimages.com/embed/817635976?et=Rba4WDt_R0lA5Nl5xFjExw&tld=com&sig=CO0dvMz4PdfUPO3FJP7voBaDrE1r5n3y1gOeWOVqews=&caption=true&ver=1" scrolling="no" frameborder="0" width="509" height="339" style="display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;margin:0;"></iframe></div></div>

@@ -1,7 +1,9 @@
 # Spring2021_final_project
  Spring 2021 IA626 Final Project
  
-![Futurama: Philip J. Fry, somewhere in New New York](https://media.giphy.com/media/3oKIPa2TdahY8LAAxy/giphy.gif)
+<p align="center>">
+    <img src="https://media.giphy.com/media/3oKIPa2TdahY8LAAxy/giphy.gif">
+</p>
 
 ### Data 1
 Taxable Sales And Purchases Quarterly Data: Beginning Sales Tax Year 2013-2014
@@ -32,10 +34,16 @@ Data 2 was last updated in August 2020.
 ### Data 3
 
 
+
+
 ## Descriptions of fields
 
-For descriptions of fields in the datasets, [click here](descriptions.md)
+For descriptions of fields in the datasets, [click here](fields.md)
 
-![The Million Dollar Staircase]("http://www.gettyimages.com/detail/817635976")
+<p align="center>">
+    <img src="https://media.gettyimages.com/photos/new-york-interior-picture-id817635976?s=2048x2048">
+</p>
 
-![NYS Capitol from the Plaza](http://www.gettyimages.com/detail/136330095)
+<p align="center>">
+    <img src="https://media.gettyimages.com/photos/new-york-state-capitol-building-at-night-albany-picture-id136330095?s=2048x2048">
+</p>
