@@ -1,4 +1,6 @@
-![Watkins Glen State Park](https://media.gettyimages.com/photos/waterfall-and-bridge-at-watkins-glen-state-park-new-york-picture-id1179601463?s=2048x2048)
+<center>
+    <img src="https://media.gettyimages.com/photos/waterfall-and-bridge-at-watkins-glen-state-park-new-york-picture-id1179601463?s=2048x2048" title="Watkins Glen State Park" alt="Watkins Glen State Park">
+</center>
 
 
 ### Data 1 -Taxable Sales And Purchases Quarterly Data: Beginning Sales Tax Year 2013-2014

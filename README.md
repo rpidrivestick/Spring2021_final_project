@@ -1,9 +1,9 @@
 # Spring2021_final_project
- Spring 2021 IA626 Final Project
+#### Spring 2021 IA626 Final Project
  
-<p align="center>">
-    <img src="https://media.giphy.com/media/3oKIPa2TdahY8LAAxy/giphy.gif" alt="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" />
-</p>
+<center>
+    <img src="https://media.giphy.com/media/3oKIPa2TdahY8LAAxy/giphy.gif" alt="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" title="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" />
+</center>
 
 ## Background
 
@@ -51,10 +51,10 @@ For information on the datasets used, [click here](datasets.md)
 For descriptions of fields in the datasets, [click here](fields.md)
 
 
-<p align="center>">
-    <img src="https://media.gettyimages.com/photos/new-york-state-capitol-building-at-night-albany-picture-id136330095?s=2048x2048">
-</p>
+<center>
+    <img src="https://media.gettyimages.com/photos/new-york-state-capitol-building-at-night-albany-picture-id136330095?s=2048x2048" title="NYS Capitol Building at night, from the Empire State Plaza" alt="NYS Capitol Building at night, from the Empire State Plaza">
+</center>
 
-<p align="center>">
-    <img src="https://media.gettyimages.com/photos/highway-to-albany-new-york-state-capitol-skyline-and-government-picture-id661898406?s=2048x2048">
-    </p>
+<center>
+    <img src="https://media.gettyimages.com/photos/highway-to-albany-new-york-state-capitol-skyline-and-government-picture-id661898406?s=2048x2048" title="Albany, NY skyline from above the Dunn Memorial Bridge" alt="Albany, NY skyline from above the Dunn Memorial Bridge">
+    </center>
