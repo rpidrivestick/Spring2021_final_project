@@ -1,4 +1,4 @@
-<p align="center>">
+<p align="center">
     <img src="https://media.gettyimages.com/photos/new-york-interior-picture-id817635976?s=2048x2048">
 </p>
 
