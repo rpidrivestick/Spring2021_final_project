@@ -7,6 +7,10 @@
 
 ## Background
 
+I have been an employee of the New York State government for over 15 years, including 4 years as a sales
+
+[Report from the Office of the State Comptroller: "Understanding Local Government Sales Tax in New York State"](https://www.osc.state.ny.us/files/local-government/publications/pdf/understanding-local-government-sales-tax-in-nys-2020-update.pdf)
+
 [NYS Sales Tax Return, Annual reporting, ST-101](https://www.tax.ny.gov/pdf/current_forms/st/st101_fill_in.pdf)
 
 ### Planned analysis

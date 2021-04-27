@@ -1,0 +1,80 @@
+﻿Jurisdiction,Type,Entity,Whole_rate,Local_rate
+NY State,State,NY State,0.04,0.04
+Albany,County,Albany,0.08,0.04
+Allegany,County,Allegany,0.085,0.045
+Broome,County,Broome,0.08,0.04
+Cattaraugus,County,Cattaraugus,0.08,0.04
+Olean,Muni,Cattaraugus,0.08,0.04
+Salamanca,Muni,Cattaraugus,0.08,0.04
+Cayuga,County,Cayuga,0.08,0.04
+Auburn,Muni,Cayuga,0.08,0.04
+Chautauqua,County,Chautauqua,0.08,0.04
+Chemung,County,Chemung,0.08,0.04
+Chenango,County,Chenango,0.08,0.04
+Norwich,Muni,Chenango,0.08,0.04
+Clinton,County,Clinton,0.08,0.04
+Columbia,County,Columbia,0.08,0.04
+Cortland,County,Cortland,0.08,0.04
+Delaware,County,Delaware,0.08,0.04
+Dutchess,County,Dutchess,0.08125,0.04125
+Erie,County,Erie,0.0875,0.0475
+Essex,County,Essex,0.08,0.04
+Franklin,County,Franklin,0.08,0.04
+Fulton,County,Fulton,0.08,0.04
+Gloversville,Muni,Fulton,0.08,0.04
+Johnstown,Muni,Fulton,0.08,0.04
+Genesee,County,Genesee,0.08,0.04
+Greene,County,Greene,0.08,0.04
+Hamilton,County,Hamilton,0.08,0.04
+Herkimer,County,Herkimer,0.0825,0.0425
+Jefferson,County,Jefferson,0.08,0.04
+Lewis,County,Lewis,0.08,0.04
+Livingston,County,Livingston,0.08,0.04
+Madison,County,Madison,0.08,0.04
+Oneida,Muni,Madison,0.08,0.04
+Monroe,County,Monroe,0.08,0.04
+Montgomery,County,Montgomery,0.08,0.04
+Nassau,County,Nassau,0.08625,0.04625
+Niagara,County,Niagara,0.08,0.04
+Oneida,County,Oneida,0.0875,0.0475
+Rome,Muni,Oneida,0.0875,0.0475
+Utica,Muni,Oneida,0.0875,0.0475
+Onondaga,County,Onondaga,0.08,0.04
+Ontario,County,Ontario,0.075,0.035
+Orange,County,Orange,0.08125,0.04125
+Orleans,County,Orleans,0.08,0.04
+Oswego,County,Oswego,0.08,0.04
+Oswego,Muni,Oswego,0.08,0.04
+Otsego,County,Otsego,0.08,0.04
+Putnam,County,Putnam,0.08375,0.04375
+Rensselaer,County,Rensselaer,0.08,0.04
+Rockland,County,Rockland,0.08375,0.04375
+St. Lawrence,County,St. Lawrence,0.08,0.04
+St Lawrence,County,St Lawrence,0.08,0.04
+Saratoga,County,Saratoga,0.07,0.03
+Saratoga Springs,Muni,Saratoga,0.07,0.03
+Schenectady,County,Schenectady,0.08,0.04
+Schoharie,County,Schoharie,0.08,0.04
+Schuyler,County,Schuyler,0.08,0.04
+Seneca,County,Seneca,0.08,0.04
+Steuben,County,Steuben,0.08,0.04
+Suffolk,County,Suffolk,0.08625,0.04625
+Sullivan,County,Sullivan,0.08,0.04
+Tioga,County,Tioga,0.08,0.04
+Tompkins,County,Tompkins,0.08,0.04
+Ithaca,Muni,Tompkins,0.08,0.04
+Ulster,County,Ulster,0.08,0.04
+Warren,County,Warren,0.07,0.03
+Glens Falls,Muni,Warren,0.07,0.03
+Washington,County,Washington,0.07,0.03
+Wayne,County,Wayne,0.08,0.04
+Westchester,County,Westchester,0.08375,0.04375
+Mount Vernon,Muni,Westchester,0.08375,0.04375
+New Rochelle,Muni,Westchester,0.08375,0.04375
+White Plains,Muni,Westchester,0.08375,0.04375
+Yonkers,Muni,Westchester,0.08875,0.04875
+Wyoming,County,Wyoming,0.08,0.04
+Yates,County,Yates,0.08,0.04
+NY City,County,NY City,0.08875,0.04875
+MCTD,Muni,MCTD,0.04375,0.04375
+NYC Local,Muni,NY City,0.045,0.045

@@ -8,6 +8,10 @@ https://data.ny.gov/Government-Finance/Taxable-Sales-And-Purchases-Quarterly-Dat
 
 data downloaded April 6, 2021
 
+The data is on the taxable sales and purchase amounts related to collections/remittances, rather than the tax collected.  This was discovered when I began by finding the total for one county and comparing it to distributions in dataset 2.  The amount needs to have the local sales tax rate applied in order to compare to the distributions.  Because of the various partial exemptions, where something is taxable at the state level but not the local level, or vice versa, that exist - such as clothing, Qualified Empire Zones, and residential utilities, for example - it is unlikely to be a 100% match.
+
+Because this data is in 
+
 ### Data 2 - State and Local Sales Tax Distributions: Beginning Fiscal Years Ended March 31, 1995
 https://data.ny.gov/Government-Finance/State-and-Local-Sales-Tax-Distributions-Beginning-/5g2s-tnb7
 
