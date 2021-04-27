@@ -1,5 +1,5 @@
 <center>
-    <img src="https://media.gettyimages.com/photos/new-york-interior-picture-id817635976?s=2048x2048" alt="The Million Dollar Staircase, inside the NYS Capitol Building">
+    <img src="https://media.gettyimages.com/photos/new-york-interior-picture-id817635976?s=2048x2048" title="The Million Dollar Staircase, inside the NYS Capitol Building" alt="The Million Dollar Staircase, inside the NYS Capitol Building">
 </center>
 
 # Field descriptions

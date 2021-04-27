@@ -1,15 +1,18 @@
 # Spring2021_final_project
 #### Spring 2021 IA626 Final Project
- 
+
+
 <center>
-    <img src="https://media.giphy.com/media/3oKIPa2TdahY8LAAxy/giphy.gif" alt="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" title="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" />
-</center>
+    <img src="https://media.gettyimages.com/photos/highway-to-albany-new-york-state-capitol-skyline-and-government-picture-id661898406?s=2048x2048" title="Albany, NY skyline from above the Dunn Memorial Bridge; OSC is the building on the right which looks like a HoJo's" alt="Albany, NY skyline from above the Dunn Memorial Bridge">
+    </center>
 
 ## Background
 
-I have been an employee of the New York State government for over 15 years, including 4 years as a sales
+I have been an employee of the New York State government for over 15 years, including 4 years as a sales and use tax auditor.
 
 [Report from the Office of the State Comptroller: "Understanding Local Government Sales Tax in New York State"](https://www.osc.state.ny.us/files/local-government/publications/pdf/understanding-local-government-sales-tax-in-nys-2020-update.pdf)
+
+[New York State Annual Financial Reports from the Office of the State Comptroller](https://www.osc.state.ny.us/reports/finance)
 
 [NYS Sales Tax Return, Annual reporting, ST-101](https://www.tax.ny.gov/pdf/current_forms/st/st101_fill_in.pdf)
 
@@ -26,6 +29,10 @@ I have been an employee of the New York State government for over 15 years, incl
 * Sales tax collected by industry (NAICS) vs corporate tax credits by industry
 
 I was hoping to compare the sales tax collections to corporation taxes during the pandemic, but corporation taxes are audited on a 3 year lag, and the most recent corporation tax information available from DTF are for the tax year 2017.  The information that is available is the tax credits, not the taxes paid.  Whether or not they sales taxes and the corporate credits correlate would be interesting, even if pre-pandemic information must be used.
+
+<center>
+    <img src="https://media.giphy.com/media/3oKIPa2TdahY8LAAxy/giphy.gif" alt="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" title="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" />
+</center>
 
 ### Known hurdles:
 
@@ -54,11 +61,12 @@ For information on the datasets used, [click here](datasets.md)
 
 For descriptions of fields in the datasets, [click here](fields.md)
 
+### The Journey
+
+“It does not do to leave a live dragon out of your calculations, if you live near one.” – J.R.R. Tolkien.
+
+A plan was mapped out, but things don't usually work 100% the first time.  [Read about the issues I encountered and how I addressed them.](journey.md)
 
 <center>
     <img src="https://media.gettyimages.com/photos/new-york-state-capitol-building-at-night-albany-picture-id136330095?s=2048x2048" title="NYS Capitol Building at night, from the Empire State Plaza" alt="NYS Capitol Building at night, from the Empire State Plaza">
 </center>
-
-<center>
-    <img src="https://media.gettyimages.com/photos/highway-to-albany-new-york-state-capitol-skyline-and-government-picture-id661898406?s=2048x2048" title="Albany, NY skyline from above the Dunn Memorial Bridge" alt="Albany, NY skyline from above the Dunn Memorial Bridge">
-    </center>
