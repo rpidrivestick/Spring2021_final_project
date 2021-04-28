@@ -31,7 +31,9 @@ I have been an employee of the New York State government for over 15 years, incl
 I was hoping to compare the sales tax collections to corporation taxes during the pandemic, but corporation taxes are audited on a 3 year lag, and the most recent corporation tax information available from DTF are for the tax year 2017.  The information that is available is the tax credits, not the taxes paid.  Whether or not they sales taxes and the corporate credits correlate would be interesting, even if pre-pandemic information must be used.
 
 <center>
+    <p align="center">
     <img src="https://media.giphy.com/media/3oKIPa2TdahY8LAAxy/giphy.gif" alt="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" title="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" />
+    </p>
 </center>
 
 ### Known hurdles:
