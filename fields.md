@@ -65,4 +65,11 @@ Information in these tables was obtained from the data.ny.gov pages where the da
 | 4 | NAICS Description | The major industry group category is based on the North American Industry Classification System (NAICS). Taxpayers report their principal business activity using NAICS codes from their federal tax returns. Therefore, the NAICS code may not be indicative of the type of activities actually being undertaken in New York. The NAICS descriptions provided within the dataset may vary between years because NAICS codes are reviewed every five years (in the years ending in ‘2’ or ‘7’) for potential revisions so that the classification system can keep pace with the changing economy. | Plain Text |
 | 5 | Notes | Disclosure identifies whether the data in columns have a value, but is not reported. d/ ‐ Tax Law secrecy provisions prohibit the disclosure of data for instances of less than three taxpayers. 1/ Chapter 56 of the Laws of 2011 created the New York Youth Works Tax Credit Program. Chapter 56 of the Laws of 2015 renamed the program the Urban Youth Jobs Program Tax Credit. Chapter 59 of the Laws of 2017 further renamed the program the New York Youth Jobs Program Tax Credit. 2/ Beginning in 2016 the Beer Production Credit was renamed the Alcoholic Beverage Production Credit and expanded to include wine, liquor and cider. | Plain Text |
 | 6 | Number of Taxpayers | Number of taxpayers taking the credit. | Number |
+| 7 | Amount of Credit | The amount of the credit generated, claimed, used, refunded, or carried forward in the tax year based on the credit type. | Number | 
+| 8 | Percent of Credit | Percentage of the amount of credit by NAICS description within each credit type. | Number | 
+| 9 | Median Amount of Credit | The central value representing an equal number of credit values above and below it. | Number | 
+| 10 | Mean Amount of Credit | Average amount of credit in a given category. | Number | 
+| 11 | Group Sort Order | Indicator to sort by NAICS description. | Number | 
+| 12 | Credit Type Sort Order | Indicator to sort the credit type. |  | 
+
 
