@@ -1,63 +1,64 @@
-﻿ID,County,Region
-1,Albany,Capital
-2,Allegany,Western NY
-3,Bronx,New York City
-4,Broome,Southern Tier
-5,Cattaraugus,Western NY
-6,Cayuga,Central NY
-7,Chautauqua,Western NY
-8,Chemung,Southern Tier
-9,Chenango,Southern Tier
-10,Clinton,North Country
-11,Columbia,Capital
-12,Cortland,Central NY
-13,Delaware,Southern Tier
-14,Dutchess,Hudson Valley
-15,Erie,Western NY
-16,Essex,North Country
-17,Franklin,North Country
-18,Fulton,Mohawk Valley
-19,Genesee,Finger Lakes
-20,Greene,Capital
-21,Hamilton,North Country
-22,Herkimer,Mohawk Valley
-23,Jefferson,North Country
-24,Kings,New York City
-25,Lewis,North Country
-26,Livingston,Finger Lakes
-27,Madison,Central NY
-28,Monroe,Finger Lakes
-29,Montgomery,Mohawk Valley
-30,Nassau,Long Island
-31,NewYork,New York City
-32,Niagara,Western NY
-33,Oneida,Mohawk Valley
-34,Onondaga,Central NY
-35,Ontario,Finger Lakes
-36,Orange,Hudson Valley
-37,Orleans,Finger Lakes
-38,Oswego,Central NY
-39,Otsego,Mohawk Valley
-40,Putnam,Hudson Valley
-41,Queens,New York City
-42,Rensselaer,Capital
-43,Richmond,New York City
-44,Rockland,Hudson Valley
-45,Saratoga,Capital
-46,Schenectady,Capital
-47,Schoharie,Mohawk Valley
-48,Schuyler,Southern Tier
-49,Seneca,Finger Lakes
-50,St.Lawrence,North Country
-51,Steuben,Southern Tier
-52,Suffolk,Long Island
-53,Sullivan,Hudson Valley
-54,Tioga,Southern Tier
-55,Tompkins,Southern Tier
-56,Ulster,Hudson Valley
-57,Warren,Capital
-58,Washington,Capital
-59,Wayne,Finger Lakes
-60,Westchester,Hudson Valley
-61,Wyoming,Finger Lakes
-62,Yates,Finger Lakes
+﻿ID,County,Region,Area Name,,,,,,,,
+1,Albany,Capital,Albany-Schenectady-Troy Metro Area,,,,,,,,
+2,Allegany,Western NY,Allegany County,,,,,,,,
+3,Bronx,New York City,New York City,,,,,,,,
+4,Broome,Southern Tier,Binghamton Metro Area,,,,,,,,
+5,Cattaraugus,Western NY,Cattaraugus County,,,,,,,,
+6,Cayuga,Central NY,Cayuga County,,,,,,,,
+7,Chautauqua,Western NY,Chautauqua County,,,,,,,,
+8,Chemung,Southern Tier,Elmira Metro Area,,,,,,,,
+9,Chenango,Southern Tier,Chenango County,,,,,,,,
+10,Clinton,North Country,Clinton County,,,,,,,,
+11,Columbia,Capital,Columbia County,,,,,,,,
+12,Cortland,Central NY,Cortland County,,,,,,,,
+13,Delaware,Southern Tier,Delaware County,,,,,,,,
+14,Dutchess,Hudson Valley,Dutchess-Putnam Metropolitan Division,,,,,,,,
+15,Erie,Western NY,Buffalo-Niagara Falls Metro Area,,,,,,,,
+16,Essex,North Country,Essex County,,,,,,,,
+17,Franklin,North Country,Franklin County,,,,,,,,
+18,Fulton,Mohawk Valley,Fulton County,,,,,,,,
+19,Genesee,Finger Lakes,Genesee County,,,,,,,,
+20,Greene,Capital,Greene County,,,,,,,,
+21,Hamilton,North Country,Hamilton County,,,,,,,,
+22,Herkimer,Mohawk Valley,Utica-Rome Metro Area,,,,,,,,
+23,Jefferson,North Country,Watertown-Fort Drum Metro Area,,,,,,,,
+24,Kings,New York City,New York City,,,,,,,,
+25,Lewis,North Country,Lewis County,,,,,,,,
+26,Livingston,Finger Lakes,Rochester Metro Area,,,,,,,,
+27,Madison,Central NY,Syracuse Metro Area,,,,,,,,
+28,Monroe,Finger Lakes,Rochester Metro Area,,,,,,,,
+29,Montgomery,Mohawk Valley,Montgomery County,,,,,,,,
+30,Nassau,Long Island,Nassau-Suffolk Metropolitan Division,,,,,,,,
+31,NewYork,New York City,New York City,,,,,,,,
+32,Niagara,Western NY,Buffalo-Niagara Falls Metro Area,,,,,,,,
+33,Oneida,Mohawk Valley,Utica-Rome Metro Area,,,,,,,,
+34,Onondaga,Central NY,Syracuse Metro Area,,,,,,,,
+35,Ontario,Finger Lakes,Rochester Metro Area,,,,,,,,
+36,Orange,Hudson Valley,Orange-Rockland-Westchester Metro Area,,,,,,,,
+37,Orleans,Finger Lakes,Rochester Metro Area,,,,,,,,
+38,Oswego,Central NY,Syracuse Metro Area,,,,,,,,
+39,Otsego,Mohawk Valley,Otsego County,,,,,,,,
+40,Putnam,Hudson Valley,Dutchess-Putnam Metropolitan Division,,,,,,,,
+41,Queens,New York City,New York City,,,,,,,,
+42,Rensselaer,Capital,Albany-Schenectady-Troy Metro Area,,,,,,,,
+43,Richmond,New York City,New York City,,,,,,,,
+44,Rockland,Hudson Valley,Orange-Rockland-Westchester Metro Area,,,,,,,,
+45,Saratoga,Capital,Albany-Schenectady-Troy Metro Area,,,,,,,,
+46,Schenectady,Capital,Albany-Schenectady-Troy Metro Area,,,,,,,,
+47,Schoharie,Mohawk Valley,Albany-Schenectady-Troy Metro Area,,,,,,,,
+48,Schuyler,Southern Tier,Schuyler County,,,,,,,,
+49,Seneca,Finger Lakes,Seneca County,,,,,,,,
+50,St Lawrence,North Country,St. Lawrence County,,,,,,,,
+51,Steuben,Southern Tier,Steuben County,,,,,,,,
+52,Suffolk,Long Island,Nassau-Suffolk Metropolitan Division,,,,,,,,
+53,Sullivan,Hudson Valley,Sullivan County,,,,,,,,
+54,Tioga,Southern Tier,Binghamton Metro Area,,,,,,,,
+55,Tompkins,Southern Tier,Ithaca Metro Area,,,,,,,,
+56,Ulster,Hudson Valley,Kingston Metro Area,,,,,,,,
+57,Warren,Capital,Glens Falls Metro Area,,,,,,,,
+58,Washington,Capital,Glens Falls Metro Area,,,,,,,,
+59,Wayne,Finger Lakes,Rochester Metro Area,,,,,,,,
+60,Westchester,Hudson Valley,Orange-Rockland-Westchester Metro Area,,,,,,,,
+61,Wyoming,Finger Lakes,Wyoming County,,,,,,,,
+62,Yates,Finger Lakes,Rochester Metro Area,,,,,,,,
+63,NY City,New York City,New York City,,,,,,,,
