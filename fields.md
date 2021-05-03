@@ -44,6 +44,8 @@ Information in these tables was obtained from the data.ny.gov pages where the da
 
 ## Data 4 - Active Corporations: Beginning 1800
 
+There are 30 fields of this dataset.  The first 6 are detailed here.  The remaining fields are all address-related (for example, agent and CEO addresses).
+
 | Field | Column Name | Description | Type |
 |:---:|:---|:---|:---|
 | 0 | DOS ID | Unique ID number for each corporation. | Plain Text |
@@ -72,4 +74,14 @@ Information in these tables was obtained from the data.ny.gov pages where the da
 | 11 | Group Sort Order | Indicator to sort by NAICS description. | Number | 
 | 12 | Credit Type Sort Order | Indicator to sort the credit type. |  | 
 
+<p align="center">
+    <center><h1 style="font-size:1vw">
+        <i>
+            <a href = "readme.md">RETURN TO MAIN MARKDOWN PAGE</a></h1>
+    </center>
+    </p>
 
+
+<center>
+    <img src="https://media.gettyimages.com/photos/landscape-with-cohoes-falls-picture-id1188990007?s=2048x2048" title="The Cohoes Falls, Cohoes, NY - the Hudson River is actually an estuary and is at sea level until this point" alt="The Cohoes Falls, Cohoes, NY - the Hudson River is actually an estuary and is at sea level until this point">
+</center>

@@ -1,5 +1,5 @@
 <center>
-    <img src="https://media.gettyimages.com/photos/road-markers-indicate-directions-for-the-interstate-87-also-known-as-picture-id698001966?s=2048x2048" title="People new to the Capital Region don't understand instructions to go 'south on the Northwy'" alt="NY Seasons: Almost Winter, Winter, Still Winter, and Construction">
+    <img src="https://media.gettyimages.com/photos/road-markers-indicate-directions-for-the-interstate-87-also-known-as-picture-id698001966?s=2048x2048" title="People new to the Capital Region don't understand instructions to go 'south on the Northway'" alt="NY Seasons: Almost Winter, Winter, Still Winter, and Construction">
 </center>
 
 # Potholes encountered along the way
@@ -10,7 +10,7 @@ Working with the distribution data (dataset 2), the jurisdictions did not match 
 
 In order to create a dictionary with the major jurisdictions and taxes distributed, the python code included nested loops.  But the output returned was only for a handful of major jurisdictions.  It seemed as if something wasn't being reset after success in the inner loop, and then I was only getting success for the first time it went into the inner loop.  After much frustration, I was able to figure out that the file used for the inner loop did in fact need to be reset - once it got to the end, there was nothing left to look when the next outer iteration instructed to loop through.  The reason it had been working on a few major jurisdictions early on was that I was breaking out of the inner loop, leaving some rows to be iterated through.
 
-```
+```python
 for row in reader :
     j = row[1]
     y = row[0]
@@ -35,6 +35,21 @@ for row in reader :
                     break
 ```
 
-<center>
-<img src="https://media.makeameme.org/created/well-that-didnt-uyd8eh.jpg">
+<a href ="https://media.makeameme.org/created/well-that-didnt-uyd8eh.jpg">Well, that didn't go so well.</a>
+
+
+<p align="center">
+    <center>
+<img src="https://media2.giphy.com/media/453QsWPQj5bsQaqp8M/giphy.gif?cid=790b7611110d6b1b7a79d0ad2579f68080859bcf3477c217&rid=giphy.gif&ct=g"><br><a href="https://giphy.com/gifs/reaction-453QsWPQj5bsQaqp8M" title="They've blown out one of our engines!" alt="fix it.">via GIPHY</a></p></center>
+
+<p align="center">
+    <center><h1 style="font-size:1vw">
+        <i>
+            <a href = "readme.md">RETURN TO MAIN MARKDOWN PAGE</a></h1>
+    </center>
+    </p>    
+
+<img src="https://media.gettyimages.com/photos/new-york-state-cows-in-barn-picture-id136599143?s=2048x2048"
+     title="The cows are unimpressed with my troubles." alt="Out to pasture">
+</center>
 </center>

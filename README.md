@@ -24,7 +24,7 @@ For more information on the NYS sales tax, an easy to read document is this repo
 
 For example, the report details how St. Lawrence County's 4% is distributed.  St. Lawrence County has no pre-empting cities.
 
->First 3.00%: The County retains 50% and distributes 6.437389% to the City of Ogdensburg. The remaining 43.562611% is distributed to towns and villages based on property value and population. Additional 1.00%: The County retains 83.562611% and distributes 6.437389% to the City of Ogdensburg. The remaining 10% is distributed to towns and villages based on property value and population.
+>First 3.00%: The County retains 50% and distributes 6.437389% to the City of Ogdensburg. The remaining 43.562611% is distributed to towns and villages based on property value and population. <br>Additional 1.00%: The County retains 83.562611% and distributes 6.437389% to the City of Ogdensburg. The remaining 10% is distributed to towns and villages based on property value and population.
 
 NYS Annual Financial Reports from the Office of the State Comptroller can be found here:
 <br>[New York State Annual Financial Reports from the Office of the State Comptroller](https://www.osc.state.ny.us/reports/finance)
@@ -32,7 +32,7 @@ NYS Annual Financial Reports from the Office of the State Comptroller can be fou
 An example NYS Sales Tax return, for Annual reporting:
 <br>[NYS Sales Tax Return, Annual reporting, ST-101](https://www.tax.ny.gov/pdf/current_forms/st/st101_fill_in.pdf)
 
-### Planned analysis
+## Planned analysis
 
 * Tax collected by jurisdiction 
     * vs tax distributions by jurisdiction
@@ -52,7 +52,7 @@ An example NYS Sales Tax return, for Annual reporting:
     </p>
 </center>
 
-### Known hurdles:
+## Known hurdles:
 
 - [ ] The Department of Labor (DOL) employment information is based on geographic area, not by county or sales tax jurisdiction.  DOL has a document showing the county breakdown of the various geographic areas at [this link](https://statistics.labor.ny.gov/lsgeog.shtm).
 
@@ -78,13 +78,13 @@ For information on the datasets used, [see my markdown covering datasets.](datas
 
 For descriptions of fields in the datasets, I have created a [fields markdown file with tables for each dataset.](fields.md)
 
-### The Journey
+## The Journey
 
 “It does not do to leave a live dragon out of your calculations, if you live near one.” – J.R.R. Tolkien.
 
 A plan was mapped out, but things don't usually work 100% the first time.  [Read about the issues I encountered and how I addressed them.](journey.md)
 
-### What does it mean?
+## What does it mean?
 
 >All your life is Channel 13, Sesame Street, What does it mean?
 ><br>-"Pressure", Billy Joel
