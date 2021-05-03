@@ -96,7 +96,7 @@ For descriptions of fields in the datasets, [click here](fields.md)
 <p align="center">
     <center><h1 style="font-size:1vw">
         <i>
-            <a href = "readme.md">RETURN TO MAIN MARKDOWN PAGE</a></h1>
+            <a href = "README.md">RETURN TO MAIN MARKDOWN PAGE</a></h1>
     </center>
     </p>
 
