@@ -48,7 +48,8 @@ An example NYS Sales Tax return, for Annual reporting:
 
 <p align="center">
 <center>
-    <img src="https://media.giphy.com/media/3oKIPa2TdahY8LAAxy/giphy.gif" alt="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" title="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" />
+    <img src="https://media.giphy.com/media/3oKIPa2TdahY8LAAxy/giphy.gif" alt="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" title="Futurama: Philip J. Fry, somewhere in New New York, 31st Century" /><br>
+<a href="https://giphy.com/gifs/producthunt-shut-up-and-take-my-money-3oKIPa2TdahY8LAAxy">via GIPHY</a>
     </p>
 </center>
 
