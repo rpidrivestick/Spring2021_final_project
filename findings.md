@@ -27,7 +27,7 @@ For NAICS 4453, the calculated change in tax revenues:
 
 ![tax_4453.png](tax_4453.png)
 
-The percentage change is particularly notable.  One that sticks out is Hamilton County at a nearly 60% increase.  Hamilton County only has a population of less than 5,000 people, though people may have temporarily moved to the county (in the middle of the Adirondacks), from urban areas such as NYC, during the pandemic year as they were working remotely.  It also may be a reflection of the decrease in restaurant sales; people were both eating and drinking at home since they could not do so in restaurants for much of the year.
+The percentage change is particularly notable.  One that sticks out is Hamilton County at a nearly 60% increase.  Hamilton County only has a population of less than 5,000 people, though people may have temporarily moved to the county (in the middle of the Adirondacks), from urban areas such as NYC, during the pandemic year as they were working remotely.  It also may be a reflection of the decrease in restaurant sales; people were both eating and drinking at home since they could not do so in restaurants for much of the year.  This may have been exacerbated in a county such as Hamilton, where they may rely on tourism and restaurants may only be seaonal to begin with.
 
 ## Comparing collected vs distributed
 
@@ -43,7 +43,7 @@ Comparing the calculated tax collected to the distributions:
 
 ![tax_vs_dist_2020.png](tax_vs_dist_2020.png)
 
-The calculated collections versus the distributions are very close!  We must keep in mind that this analysis is somewhat estimated, as there are exemptions, special jurisdictional tax rates, and MTCD tax specifics which aren't taken into full account here.  As they say, this is close enough for government work, and I am confident that NYS is distributing all taxes which are remitted.
+The calculated collections versus the distributions are very close!  We must keep in mind that this analysis is somewhat estimated, as there are exemptions, special jurisdictional tax rates, and MCTD tax specifics which aren't taken into full account here.  As they say, this is close enough for government work, and I am confident that NYS is distributing all taxes which are remitted.
 
 ## Employment data
 

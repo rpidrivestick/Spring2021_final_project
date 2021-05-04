@@ -12,7 +12,7 @@ https://data.ny.gov/Government-Finance/Taxable-Sales-And-Purchases-Quarterly-Dat
     * May 2, 2021: checked and found that data was updated on April 29, 2021.  Downloaded updated dateset and re-ran code.
 <p>
     
-* The data is on the taxable sales and purchase amounts related to collections/remittances, rather than the tax collected.  This was discovered when I began by finding the total for one county and comparing it to distributions in dataset 2.  The amount needs to have the local sales tax rate applied in order to compare to the distributions.  Because of the various partial exemptions, where something is taxable at the state level but not the local level, or vice versa, that exist - such as clothing, Qualified Empire Zones, and residential utilities, for example - it is unlikely to be a 100% match.
+* The data contains the taxable sales and purchase amounts related to collections/remittances, rather than the tax collected.  This was discovered when I began by finding the total for one county and comparing it to distributions in dataset 2.  The amount needs to have the local sales tax rate applied in order to compare to the distributions.  Because of the various partial exemptions, where something is taxable at the state level but not the local level, or vice versa, that exist - such as clothing, Qualified Empire Zones, and residential utilities, for example - it is unlikely to be a 100% match.
     
 * Sales tax year ends in February
     * Quarters end: 
@@ -49,7 +49,7 @@ https://data.ny.gov/Economic-Development/Current-Employment-Statistics-Beginning
 
 * This data is on calendar year, so it needs to be translated to sales tax years for comparison.
 
-* DOL areas are not by counties, but by metropolitan areas and counties when they are not designated as a metropolitan area.  A separate file was created in order to match the data to the sales tax data, using [DOL's geographical descriptions].  See [information below.](datasets.md#geographical-areas)
+* DOL areas are not by counties, but by metropolitan areas and counties when they are not designated as a metropolitan area.  A separate file was created in order to match the data to the sales tax data, using DOL's geographical descriptions.  See [information below.](datasets.md#geographical-areas)
 
 ### Dataset 4 - Active Corporations: Beginning 1800
 

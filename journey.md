@@ -4,7 +4,7 @@
 
 # Potholes encountered along the way
 
-##Well, that didn't go as planned...
+## Well, that didn't go as planned...
 
 Sometimes, more is learned from when things don't work than when they do work.  What follows are some of the hurdles I encountered.
 
@@ -22,7 +22,8 @@ Not only were jurisdictions different for different datasets (school districts i
 Because I wanted to organize the code in separate notebooks by dataset, I needed a way to store the results of code from 1 dataset notebook for use in another.  To accomplish this, I stored the data in a dictionary as it was iterated through, then wrote the dictionary to a csv file.  This code created a dictionary with 2 values, 1 from each of 2 separate dictionaries, for each key:
 
 ```python
-## store the yr 1 and yr 2 values along with jurisdition in a list of dictionaries, to be saved as a csv file, for use in comparison with employment statistics
+## store the yr 1 and yr 2 values along with jurisdition in a list of dictionaries, to be saved as a csv file, 
+##    for use in comparison with employment statistics
     item_dict = {}
     ikeys = ["Jurisdiction", "Yr1", "Yr2"]
     i_j = key
@@ -56,7 +57,7 @@ tax = round(int(value)*float(rate),2)
 
 ### Iterating through nested loops
 
-Working with the distribution data (dataset 2), the jurisdictions did not match up with the collections data (dataset 1).  To work with this, I created a csv file which designated a "major jurisdiction" for each "sub jurisdiction".  This was generally cities which are distributed to individually, as well as residential utility tax jurisdictions.  Information was obtained from a report issued by the Office of the State Comptroller: ["Understanding Local Government Sales Tax in New York State"](https://www.osc.state.ny.us/files/local-government/publications/pdf/understanding-local-government-sales-tax-in-nys-2020-update.pdf).
+Working with the distribution data (dataset 2), the jurisdictions did not match up with the collections data (dataset 1).  To work with this, I created a csv file which designated a "major jurisdiction" for each "sub jurisdiction".  The reasons behind these mismatches were generally cities which are distributed to individually, as well as residential utility tax jurisdictions.  Information was obtained from a report issued by the Office of the State Comptroller: ["Understanding Local Government Sales Tax in New York State"](https://www.osc.state.ny.us/files/local-government/publications/pdf/understanding-local-government-sales-tax-in-nys-2020-update.pdf).
 
 In order to create a dictionary with the major jurisdictions and taxes distributed, the python code included nested loops.  But the output returned was only for a handful of major jurisdictions.  It seemed as if something wasn't being reset after success in the inner loop, and then I was only getting success for the first time it went into the inner loop.  After much frustration, I was able to figure out that the file used for the inner loop did in fact need to be reset - once it got to the end, there was nothing left to look when the next outer iteration instructed to loop through.  The reason it had been working on a few major jurisdictions early on was that I was breaking out of the inner loop, leaving some rows to be iterated through.
 
