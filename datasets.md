@@ -11,6 +11,7 @@ https://data.ny.gov/Government-Finance/Taxable-Sales-And-Purchases-Quarterly-Dat
     * The data from Dataset 1 only goes through 3Q, 2020-21, or November 2020.  Data was last updated in January 2021, so 4th quarter would theoretically be available in late April 2021.
     * May 2, 2021: checked and found that data was updated on April 29, 2021.  Downloaded updated dateset and re-ran code.
 <p>
+    
 * The data is on the taxable sales and purchase amounts related to collections/remittances, rather than the tax collected.  This was discovered when I began by finding the total for one county and comparing it to distributions in dataset 2.  The amount needs to have the local sales tax rate applied in order to compare to the distributions.  Because of the various partial exemptions, where something is taxable at the state level but not the local level, or vice versa, that exist - such as clothing, Qualified Empire Zones, and residential utilities, for example - it is unlikely to be a 100% match.
     
 * Sales tax year ends in February
@@ -21,6 +22,7 @@ https://data.ny.gov/Government-Finance/Taxable-Sales-And-Purchases-Quarterly-Dat
         - 4 - February
     * Final returns for a quarter are generally due by 20 days after the end of the sales tax quarter or year.
 <p>
+    
 * Dataset 1 is by quarter, so the quarterly amounts must be consolidated in order to reflect annual totals.
 
 ### Dataset 2 - State and Local Sales Tax Distributions: Beginning Fiscal Years Ended March 31, 1995
