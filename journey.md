@@ -4,6 +4,56 @@
 
 # Potholes encountered along the way
 
+##Well, that didn't go as planned...
+
+Sometimes, more is learned from when things don't work than when they do work.  What follows are some of the hurdles I encountered.
+
+### Making comparisons
+
+In order to compare calculated numbers, the calculations were stored in dictionaries.  These dictionaries had to be compared to identify any keys were were in one dictionary, but not the other, because otherwise, the results may not show the one-side, or an error might be displayed instead of results.
+
+### Matching jurisdictions
+
+Not only were jurisdictions different for different datasets (school districts in sales tax distributions, geographical areas in DOL dataset), but formatting was different as well.  Using .upper() attached to one or both variables when comparing the strings allowed the formats to be the same.  Since St. Lawrence County was the only jurisdiction which had a period in it, I made sure that the punctuation was the same when creating files such as tax rates and geographical areas.
+
+
+### Storing the results
+
+Because I wanted to organize the code in separate notebooks by dataset, I needed a way to store the results of code from 1 dataset notebook for use in another.  To accomplish this, I stored the data in a dictionary as it was iterated through, then wrote the dictionary to a csv file.  This code created a dictionary with 2 values, 1 from each of 2 separate dictionaries, for each key:
+
+```python
+## store the yr 1 and yr 2 values along with jurisdition in a list of dictionaries, to be saved as a csv file, for use in comparison with employment statistics
+    item_dict = {}
+    ikeys = ["Jurisdiction", "Yr1", "Yr2"]
+    i_j = key
+    i_yr1 = value
+    i_yr2 = tax2_hist[key]
+    ivalues = [i_j, i_yr1, i_yr2]
+    item_dict = dict(zip(ikeys, ivalues))
+    st_change.append(item_dict)
+```
+
+### Indentations are really important
+
+And so is having an idea of what the results <i>should</i> look like.
+
+When working with the taxable sales and purchases data, classifying the data into the DOL geographic areas, I noticed that Cayuga County was showing nearly &#36;50 million.  I checked it against the dataset 1 queries, and found that it should have been only 3.4 million.  Adding more print commands, and some head scratching, I realized that the code to calculate the running totals was indented incorrectly, causing a compounded calculation.  Once this was corrected, the results tied to that of dataset 1 for the minor counties which DOL does not include in a metropolitan geographical area.
+
+
+<p align="center">
+    <center>
+<img src="https://media2.giphy.com/media/453QsWPQj5bsQaqp8M/giphy.gif?cid=790b7611110d6b1b7a79d0ad2579f68080859bcf3477c217&rid=giphy.gif&ct=g"><br><a href="https://giphy.com/gifs/reaction-453QsWPQj5bsQaqp8M" title="They've blown out one of our engines!" alt="fix it.">via GIPHY</a></p></center>
+
+
+
+### Calculations - no strings!
+
+Instructions often had to be include a treatment as a specific type, or calculations would not work.  For example, when calcuating the tax based on the taxable sales and purchases (variable: value) and tax rate (variable: rate), both variables were transformed to integer and float, respectively, within the calculation:
+
+```python
+tax = round(int(value)*float(rate),2)
+```
+
 ### Iterating through nested loops
 
 Working with the distribution data (dataset 2), the jurisdictions did not match up with the collections data (dataset 1).  To work with this, I created a csv file which designated a "major jurisdiction" for each "sub jurisdiction".  This was generally cities which are distributed to individually, as well as residential utility tax jurisdictions.  Information was obtained from a report issued by the Office of the State Comptroller: ["Understanding Local Government Sales Tax in New York State"](https://www.osc.state.ny.us/files/local-government/publications/pdf/understanding-local-government-sales-tax-in-nys-2020-update.pdf).
@@ -35,12 +85,36 @@ for row in reader :
                     break
 ```
 
-<a href ="https://media.makeameme.org/created/well-that-didnt-uyd8eh.jpg">Well, that didn't go so well.</a>
+### Accountants are particular about commas, percentages, and alignment
 
+I was able to print dollar amounts and percentages with 2 decimal places, and to align the numbers to the right by using f-string literals such as this:
 
-<p align="center">
-    <center>
-<img src="https://media2.giphy.com/media/453QsWPQj5bsQaqp8M/giphy.gif?cid=790b7611110d6b1b7a79d0ad2579f68080859bcf3477c217&rid=giphy.gif&ct=g"><br><a href="https://giphy.com/gifs/reaction-453QsWPQj5bsQaqp8M" title="They've blown out one of our engines!" alt="fix it.">via GIPHY</a></p></center>
+```python
+print(f"{key:20}{value:>20,.2f}{tax2_hist[key]:>20,.2f}{change:>20,.2f}{percent:>20.2%}")
+```
+
+To break this down:
+
+f"" around the specifications indicates an f-string
+
+{ } indicates each field
+
+The first item within the curly braces is the variable.
+
+Following the semi-colon, the greater than sign indicates right-align, the number 20 indicates that the field should take up 20 characters, a comma indicates that the number should be formatted with commas, .2f indicates that there should be 2 floating decimals, and the % indicates a percentage (.2% indicates percentage rounded to 2 decimal places).
+
+### The biggest constraint is time
+
+Because things never go as planned, and getting the code working correctly did not go as smoothly as planned, I was unable to get to the point where I could compare the employment statistics to the sales tax revenues, nor the corp tax credits to the  sales tax revenues (albeit older).
+
+In working with the DOS (corporations established) dataset, I created a dictionary with the corporations established in each year, but I struggeled to be able to work with these results.
+
+```python
+ # define a dictionary in the filed_dict dictionary as 'dict ' + reporting year
+    filed_dict['dict_' + str(CountYear2)] = sorted_Periods
+```
+
+![Corporations results](corporations.png)
 
 <p align="center">
     <center><h1 style="font-size:1vw">

@@ -21,6 +21,7 @@ https://data.ny.gov/Government-Finance/Taxable-Sales-And-Purchases-Quarterly-Dat
         - 4 - February
     * Final returns for a quarter are generally due by 20 days after the end of the sales tax quarter or year.
 <p>
+* Dataset 1 is by quarter, so the quarterly amounts must be consolidated in order to reflect annual totals.
 
 ### Dataset 2 - State and Local Sales Tax Distributions: Beginning Fiscal Years Ended March 31, 1995
 
