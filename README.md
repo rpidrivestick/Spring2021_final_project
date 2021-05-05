@@ -9,9 +9,9 @@
 
 ## Background
 
-I have been an employee of the New York State government for over 15 years, including 4 years as a sales and use tax auditor.  NYS is a large and complex state, and it seems that everything they do is large and complex.  The sales taxes in NYS are no exception.
+I have been an employee of the New York State (NYS) government for over 15 years, including 4 years as a sales and use tax auditor.  NYS is a large and complex state, and it seems that everything they do is large and complex.  The sales taxes in NYS are no exception.
 
-New York State established a statewide sales tax in 1965, and is currently 4%.  Counties and municipalities can choose to charge an additional sales tax; if they choose to collect more than 3%, it must be re-approved by the state legislature every 2 years (generally).  There is an additional tax that is collected for counties and municpalities in the Metropolitan Commuter Transportation District.
+NYS established a statewide sales tax in 1965, and the statewide sales tax rate is currently 4%.  Counties and municipalities can choose to charge an additional sales tax; if they choose to collect more than 3%, it must be re-approved by the state legislature every 2 years (generally).  There is an additional tax that is collected for counties and municpalities in the Metropolitan Commuter Transportation District.
 
 As I've stated, sales tax is a complicated subject; this begins with most tangible items being taxed, but with specific exemptions, and services are generally <i>not</i> taxable unless enumerated.  Clothing items under &#36;110 are currently exempt, yet counties and municipalities can choose whether or not to enact the exemption, often creating 2 tax rates for a single county.  There are 62 counties in NY (including the 5 boroughs of NYC, which are also counties; these are reported as one jurisdiction for sales tax), and many cities which choose to impose their own sales tax (sometimes shown as "pre-empting" cities), along with the multiple taxes and exemptions, creating a great many jurisdictions and forms to report on.
 
@@ -58,7 +58,7 @@ An example NYS Sales Tax return, for Annual reporting:
 
 - [ ] The Department of Labor (DOL) employment information is based on geographic area, not by county or sales tax jurisdiction.  DOL has a document showing the county breakdown of the various geographic areas at [this link](https://statistics.labor.ny.gov/lsgeog.shtm).
 
-- [ ] Municipalities other than counties are allowed to impose additional taxes, therefore are more sales tax jurisdictions than the 62 counties.  When comparing sales tax revenues to employment and corporation statistics, these jurisdictions may need to be combined with the county-wide taxes.
+- [ ] Municipalities other than counties are allowed to impose additional taxes, therefore there are more sales tax jurisdictions than the 62 counties.  When comparing sales tax revenues to employment and corporation statistics, these jurisdictions may need to be combined with the county-wide taxes.
 
 - [ ] Also, NYC is made up of 5 counties (boroughs), but is reported as NYC on the sales tax returns.  NYC imposes tax on some things which the state does not, as opposed to other counties, which generally tax either at the state portion or the state + local portions (a noted exception – clothing, which is reported on a separate form).  Tax forms and information:
     * https://www.tax.ny.gov/forms/annual_filer_forms_st101_series.htm
